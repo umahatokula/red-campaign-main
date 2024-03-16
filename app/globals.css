@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form__label {
+  @apply text-white text-base;
+}
+
+.form__input {
+  @apply rounded-md px-3 tablet:px-5 py-2 tablet:py-4 bg-white w-full text-base;
+}
+
+.form__checkbox {
+  @apply w-5 h-5 rounded-md bg-black;
+}
+
+.btn__red {
+  @apply bg-red px-12 tablet:px-10 py-2 tablet:py-4 text-xs tablet:text-base font-semibold rounded-sm tablet:rounded-md shadow-md;
+}
