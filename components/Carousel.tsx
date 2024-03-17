@@ -29,11 +29,6 @@ function Carousel({ imagePaths, isFullWidth }: CarouselType) {
           </div>
         ))}
       </div>
-      <div className="flex justify-center w-full gap-2 py-2">
-        <a href="#item1" className="btn btn-xs">
-          1
-        </a>
-      </div>
     </div>
   );
 }
