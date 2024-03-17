@@ -3,7 +3,6 @@ import React from "react";
 import Carousel from "./Carousel";
 
 const images: string[] = [
-  "slide1.svg",
   "/RED+1.jpg",
   "/RED+2.jpg",
   "/RED+3.jpg",
