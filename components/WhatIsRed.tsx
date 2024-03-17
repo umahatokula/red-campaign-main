@@ -18,7 +18,7 @@ function WhatIsRed() {
   return (
     <div className="">
       <h3 className="mx-5 mt-10 mb-5 text-base font-semibold leading-4 text-red">
-        What is RED?
+        The Cross Speaks Love?
       </h3>
       <Carousel imagePaths={images} isFullWidth={true} />
     </div>
