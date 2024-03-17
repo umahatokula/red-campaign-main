@@ -51,7 +51,7 @@ function RedStory() {
           </div>
           <div className="w-full h-auto bg-red">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=52gvhql6W9c&feature=youtu.be&ab_channel=ChristFamilyMinistry"
+              url="https://www.youtube.com/watch?v=KVEd0_Anc70&ab_channel=ChristFamilyMinistry"
               playing={true}
               width={"100%"}
               height={"100%"}

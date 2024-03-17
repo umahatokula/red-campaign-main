@@ -23,13 +23,13 @@ function Carousel({ imagePaths, isFullWidth }: CarouselType) {
               className="w-full"
               src={path}
               alt="image"
-              width={20}
-              height={20}
+              width={240}
+              height={254}
             />
           </div>
         ))}
       </div>
-      <div className="flex justify-center w-full py-2 gap-2">
+      <div className="flex justify-center w-full gap-2 py-2">
         <a href="#item1" className="btn btn-xs">
           1
         </a>
