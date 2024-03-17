@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className="w-full min-h-screen text-sm laptop:w-10/12 laptop:mx-auto tablet:text-base">
         <Nav />
         {children}
+        <Toaster />
       </body>
     </html>
   );

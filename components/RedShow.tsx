@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import toast from "react-hot-toast";
 
 type Inputs = {
   name: string;
@@ -11,11 +12,16 @@ type Inputs = {
 function RedShow() {
   const {
     register,
+    reset,
     handleSubmit,
     watch,
     formState: { errors },
   } = useForm<Inputs>();
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    console.log(data);
+    toast.success('Submitted Successfully!');
+    reset();
+  }
 
   return (
     <div className="h-auto mt-16">
