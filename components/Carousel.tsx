@@ -10,7 +10,7 @@ function Carousel({ imagePaths, isFullWidth }: CarouselType) {
   return (
     <div className="w-full h-auto">
       <div
-        className={`carousel carousel-center max-w-md tablet:w-full ${
+        className={`carousel carousel-center w-full ${
           isFullWidth ? "space-x-0" : "space-x-4 p-4"
         }`}
       >

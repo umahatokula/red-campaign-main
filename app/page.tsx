@@ -8,7 +8,7 @@ import WhatIsRed from "@/components/WhatIsRed";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="mx-auto max-w-screen-tablet">
       <WhatIsRed />
       <RedStory />
       <RedMessage />
