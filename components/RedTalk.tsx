@@ -15,7 +15,7 @@ function RedTalk() {
         RED Talk
       </p>
       <div className="grid grid-cols-1">
-        <Carousel imagePaths={images} isFullWidth={false} />
+        <Carousel imagePaths={images} isFullWidth={true} width={240} height={254} />
       </div>
     </div>
   );

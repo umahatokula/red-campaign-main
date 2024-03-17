@@ -4,9 +4,11 @@ import React from "react";
 type CarouselType = {
   imagePaths: string[];
   isFullWidth: boolean;
+  width: number;
+  height: number;
 };
 
-function Carousel({ imagePaths, isFullWidth }: CarouselType) {
+function Carousel({ imagePaths, isFullWidth, width, height }: CarouselType) {
   return (
     <div className="w-full h-auto">
       <div
@@ -23,8 +25,8 @@ function Carousel({ imagePaths, isFullWidth }: CarouselType) {
               className="w-full"
               src={path}
               alt="image"
-              width={240}
-              height={254}
+              width={width}
+              height={height}
             />
           </div>
         ))}
